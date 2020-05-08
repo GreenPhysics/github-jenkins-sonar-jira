@@ -8,7 +8,7 @@ stage('Build') {
    }
    post {
        always {
-           jiraSendBuildInfo site: 'greenphysics.atlassian.net' branch: 'AD-1'
+           jiraSendBuildInfo site: 'greenphysics.atlassian.net', branch: 'AD-1'
       }
    }
   }
