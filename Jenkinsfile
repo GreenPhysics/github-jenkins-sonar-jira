@@ -15,4 +15,3 @@ agent {label 'jenkins_slave'}
          }
     
  }
-}
