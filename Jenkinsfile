@@ -3,10 +3,8 @@ agent {label 'jenkins_slave'}
    stages {
          stage('Build') {
 
-             steps {
-                   echo 'Building...github-jenkins-sonar-jira'
                   steps {
-                        sh 'mvn -B -DskipTests clean package' 
+                        sh 'mvn clean package' 
                   }
              }          
              post {
