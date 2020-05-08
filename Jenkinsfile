@@ -1,6 +1,5 @@
 pipeline {
-stage('Build') {
-   agent any
+agent {label 'jenkins_slave'}  
    stages {
          stage('Build') {
 
@@ -16,6 +15,6 @@ stage('Build') {
                 }
              }   
          }
-    }
+    
  }
 }
