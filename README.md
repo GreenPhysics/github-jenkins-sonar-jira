@@ -1,4 +1,4 @@
-[![Quality Gate Status](http://54.69.165.75:9000/api/project_badges/measure?project=com.example%3Ajava-tomcat-maven-example&metric=alert_status)](http://54.69.165.75:9000/dashboard?id=com.example%3Ajava-tomcat-maven-example)
+[![Quality Gate Status](http://54.69.165.75:9000/api/project_badges/measure?project=GPC.github%3Agithub-jenkins-sonar-jira&metric=alert_status)](http://54.69.165.75:9000/dashboard?id=com.example%3Ajava-tomcat-maven-example)
 
 # java-tomcat-maven-example
 
