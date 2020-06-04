@@ -9,7 +9,7 @@ agent {label 'jenkins_slave'}
                        
              post {
                   always {
-                  jiraSendBuildInfo site: 'greenphysics.atlassian.net', branch: 'AD-1'
+                  jiraSendBuildInfo site: 'greenphysics.atlassian.net', branch: 'AD-11-decorate-github-with-opensource'
                 }
              }   
          }
